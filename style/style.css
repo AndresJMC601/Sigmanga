@@ -1,5 +1,3 @@
-/*buenas*/
-/*2a prueba*/
 * {
    margin: 0;
    padding: 0;
@@ -13,7 +11,7 @@ body {
 }
 
 /* Header */
-header {
+/*header {
    background-color: #e74c3c;
    display: flex;
    justify-content: space-between;
@@ -30,7 +28,6 @@ header nav ul {
    display: flex;
    align-items: center;
    gap: 1.5rem;
-   margin-right: 3rem;
 }
 header nav a {
    color: black;
@@ -145,9 +142,8 @@ h1 {
    transform: translateY(-10px);
    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
-
 /* Footer */
-footer {
+/* footer {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -172,4 +168,4 @@ footer a {
 }
 footer a:hover {
    color: #ffff;
-}
+} */

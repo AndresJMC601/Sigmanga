@@ -10,9 +10,35 @@
     <script src="footer.js" defer></script>
 </head>
 <body>
-    
-    <menu-principal></menu-principal>
-
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo SigManga" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="btn-activo" href="#">Inicio</a></li>
+                <li><a href="#">Listado</a></li>
+                <li><a href="#">Recientes</a></li>
+                <li><a href="#">Randoms</a></li>
+                <li>
+                    <div class="search">
+                        <input type="text" placeholder="Buscar...">
+                        <button><span class="material-symbols-outlined">search</span></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="auth">
+                        <a class="btn-login" href="#">Iniciar Sesión</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="auth">
+                        <a class="btn-signin" href="#">Registrarse</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <h1>Mangas más populares</h1>
     <main>
         <section class="manga-grid">
@@ -54,6 +80,19 @@
             </div>
         </section>
     </main>
-    <footer-sigma></footer-sigma>
+    <footer>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo SigManga" class="logo-img">
+        </div>
+        <p>©2024 SigManga</p>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Listado</a></li>
+                <li><a href="#">Mangas Recientes</a></li>
+                <li><a href="#">Top ↑</a></li>
+            </ul>  
+        </nav>
+    </footer>
 </body>
 </html>

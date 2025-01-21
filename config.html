@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigmanga</title>
+    <link rel="stylesheet" href="./style/conf.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+    <div class="contenedor">
+        <img src="img/jolyne.webp" alt="Imagen decorativa" class="imagen-cuadrado">
+        <div class="derecha">
+            <h1>Configuración</h1>
+            <div class="linea"></div>
+            <!-- Contenedor del ícono de perfil -->
+            <div class="perfil">
+                <img src="img/jojo.webp" alt="Perfil" class="icono-perfil">
+                <br><button class="cambiar-foto">Cambiar foto</button>
+            </div>
+            <!-- Opciones de configuración -->
+            <div class="opciones-config">
+                <div class="opcion">
+                    <label for="idioma">Seleccionar idioma:</label>
+                    <select id="idioma" name="idioma" class="select-config">
+                        <option value="es">Español</option>
+                        <option value="en">Inglés</option>
+                        <option value="fr">Francés</option>
+                        <option value="ja">Japonés</option>
+                        <option value="de">Alemán</option>
+                    </select>
+                </div>
+                <div class="opcion">
+                    <label for="tema">Seleccionar tema:</label>
+                    <select id="tema" name="tema" class="select-config">
+                        <option value="default">Por defecto</option>
+                        <option value="light">Claro</option>
+                        <option value="dark">Oscuro</option>
+                        <option value="daltonismo">Daltonismo</option>
+                    </select>
+                </div>
+                <div class="opcion">
+                    <p>Notificaciones: Activar/Desactivar</p>
+                </div>
+                <div class="opcion">
+                    <p>Historial de lectura</p>
+                </div>
+                <div class="opcion">
+                    <p>Cerrar sesión</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

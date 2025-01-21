@@ -63,13 +63,14 @@ main {
     border-color: #767676;
     width: 6rem;
     padding: 0.5rem 0 0.5rem 0;
-    
 }
 
 .select_cap {
     background-color: #fa877a;
-    border-color: #fa877a;
+    /* border-color: #fa877a; */
+    border: none;
     font-size: medium;
+    appearance: none;
 }
 
 .div_select_pag {

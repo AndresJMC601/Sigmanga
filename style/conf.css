@@ -1,0 +1,105 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+}
+
+.contenedor {
+    display: flex; 
+    height: 100vh;
+}
+
+/* .cuadrado {
+    width: 40%;
+    background-color: #EF6351; 
+} */
+
+.imagen-cuadrado {
+    width: 50%; /* Igual al ancho del cuadrado original */
+    height: 100%; /* Ocupar toda la altura del contenedor */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+}
+
+.linea {
+    width: 15%; /* Tamaño de la línea */
+    height: 3px; /* Grosor de la línea */
+    background-color: #EF6351; /* Color de la línea */
+    margin-inline: auto; /* Centra la línea */
+    margin-bottom: 4%;
+}
+
+.derecha {
+    width: 50%; 
+    padding-top: 10%;
+    background-color: #ffffff; 
+    overflow-y: auto; 
+}
+
+
+/*Estilo foto perfil*/
+.perfil {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.icono-perfil {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+}
+
+.cambiar-foto {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    color: #ffffff; 
+    background-color: #EF6351; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.cambiar-foto:hover {
+    background-color: #eb2a2a; 
+}
+
+/* Opciones de configuración */
+.opciones-config {
+    margin-top: 20px; /* Espaciado respecto al botón Cambiar foto */
+    padding: 0 20%; /* Alineación central similar al texto */
+}
+
+.opcion {
+    margin-bottom: 20px; /* Espaciado entre las opciones */
+    text-align: left; /* Centrar el contenido */
+    font-weight: bold;
+}
+
+.select-config {
+    width: 25%; /* Abarca todo el ancho del contenedor */
+    padding: 6px 10px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño del texto */
+    border: 1px solid #ccc; /* Borde simple */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #ffc7c1; /* Fondo blanco */
+    color: #333; /* Color del texto */
+    appearance: none; /* Elimina estilos por defecto del navegador */
+    cursor: pointer; /* Cursor de mano al interactuar */
+}

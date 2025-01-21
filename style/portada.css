@@ -77,6 +77,11 @@ h1 {
     margin: 1rem;
 }
 
+.manga-cap:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
 .manga-cap-title {
     display: flex;
     gap: 0.5rem;

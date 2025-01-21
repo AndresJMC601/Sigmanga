@@ -11,7 +11,7 @@ document.querySelectorAll('footer-sigma').forEach(menu =>{
         $("#contenedor").load("inicio.html");
 
         $.ajax({
-            url: '../mangas.json',
+            url: '../json/mangas.json',
             method: 'GET',
             dataType: 'json',
             success: function (data) {
@@ -36,7 +36,7 @@ document.querySelectorAll('footer-sigma').forEach(menu =>{
         $("#contenedor").load("listado.html");
         
         $.ajax({
-            url: '../mangas.json',
+            url: '../json/mangas.json',
             method: 'GET',
             dataType: 'json',
             success: function (data) {
@@ -61,7 +61,7 @@ document.querySelectorAll('footer-sigma').forEach(menu =>{
         $("#contenedor").load("recientes.html");
         
         $.ajax({
-            url: '../mangas.json',
+            url: '../json/mangas.json',
             method: 'GET',
             dataType: 'json',
             success: function (data) {

@@ -1,0 +1,38 @@
+[
+    {
+        "titulo": "Berserk",
+        "imagen": "./img/berserk.webp"
+    },
+    {
+        "titulo": "Vinland Saga",
+        "imagen": "./img/vinland.webp"
+    },
+    {
+        "titulo": "Evangelion",
+        "imagen": "./img/evangelion.webp"
+    },
+    {
+        "titulo": "Chainsaw Man",
+        "imagen": "./img/chainsaw.webp"
+    },
+    {
+        "titulo": "Trigun",
+        "imagen": "./img/trigun.webp"
+    },
+    {
+        "titulo": "Jujutsu Kaisen",
+        "imagen": "./img/jujutsu.webp"
+    },
+    {
+        "titulo": "Nana",
+        "imagen": "./img/nana.webp"
+    },
+    {
+        "titulo": "Fullmetal Alchemist",
+        "imagen": "./img/fullmetal.webp"
+    },
+    {
+        "titulo": "One Piece",
+        "imagen": "./img/onepiece.webp"
+    }
+]

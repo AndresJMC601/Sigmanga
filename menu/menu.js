@@ -49,7 +49,7 @@ class MenuPrincipal extends HTMLElement {
                         </li>
                         <li>
                             <div class="auth">
-                                <a class="btn-signin" href="#">Registrarse</a>
+                                <a class="btn-signin" href="registro.html">Registrarse</a>
                             </div>
                         </li>
                     </ul>
